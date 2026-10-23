@@ -1,0 +1,34 @@
+# Secrets / env
+.env
+*.env
+!*.env.example
+URL.md
+
+#other
+URL.md
+Journal.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Terraform
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/*.tfstate
+infra/*.tfstate.*
+infra/*.tfvars
+!infra/terraform.tfvars.example
+infra/tfplan
+
+# OS
+.DS_Store
+
+# Build artifacts
+*.tsbuildinfo

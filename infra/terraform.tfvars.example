@@ -1,0 +1,10 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+subscription_id     = "be505343-cc88-4a62-b4f0-9f1d674f7777"
+location            = "westeurope"
+jwt_secret          = "change-me-to-a-long-random-string"
+seed_admin_password = "change-me-strong-password"
+seed_admin_email    = "beheer@knrm.nl"
+
+# SSO (Entra ID) — optioneel; leeg/weggelaten = SSO uit.
+# entra_tenant_id = "00000000-0000-0000-0000-000000000000"
+# entra_client_id = "00000000-0000-0000-0000-000000000000"
